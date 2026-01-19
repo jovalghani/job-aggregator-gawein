@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'screens/home_page.dart';
+import 'screens/landing_page.dart';
 import 'services/job_service.dart';
 
 void main() {
@@ -52,7 +52,7 @@ class JobAggregatorApp extends StatelessWidget {
           ),
         ),
         themeMode: ThemeMode.system,
-        home: const HomePage(),
+        home: const LandingPage(),
       ),
     );
   }
