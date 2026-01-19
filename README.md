@@ -22,6 +22,13 @@ uvicorn main:app --reload --port 8000
 
 API Docs: http://localhost:8000/docs
 
+> **Note**: Secara default, API menggunakan **Mock Data** (sample data) untuk kemudahan testing.
+> Untuk menggunakan database PostgreSQL:
+> 1. Setup PostgreSQL database
+> 2. Update `.env` dengan credentials database
+> 3. Update `main.py` untuk menggunakan `get_db` dependency
+
+
 ### 2. Job Scraper
 
 ```bash
